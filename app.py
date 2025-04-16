@@ -8,7 +8,7 @@ task_id_control = 1
 
 
 
-
+"""Aplicação"""
 @app.route("/tasks", methods=["POST"])
 def create_task():
     global task_id_control
